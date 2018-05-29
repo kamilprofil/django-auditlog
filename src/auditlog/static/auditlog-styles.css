@@ -1,0 +1,25 @@
+/*
+   Styles for auditlog. 
+   Makes auditlog looks better with Django Grappelli.
+*/
+div.grp-readonly table {
+    width:100%;
+    border:1px dotted gray;
+}
+
+div.grp-readonly table td {
+    border:1px dotted gray;
+    padding:3px;
+}
+div.grp-readonly table td:nth-child(3) {
+    color:indianred;
+}
+
+div.grp-readonly table td:nth-child(4) {
+    color:mediumseagreen;
+}
+
+div.grp-readonly {
+    width:100%;
+    min-width:800px;
+}
