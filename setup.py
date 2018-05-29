@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='django-auditlog',
     version='0.4.5',
-    packages=['auditlog', 'auditlog.migrations', 'auditlog.management', 'auditlog.management.commands'],
+    packages=['auditlog', 'auditlog.migrations', 'auditlog.management', 'auditlog.management.commands', 'auditlog.static'],
     package_dir={'': 'src'},
     url='https://github.com/jjkester/django-auditlog',
     license='MIT',
