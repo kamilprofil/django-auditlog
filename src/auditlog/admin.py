@@ -5,6 +5,12 @@ from .filters import ResourceTypeFilter
 
 
 class LogEntryAdmin(admin.ModelAdmin, LogEntryAdminMixin):
+
+    class Media:
+        css = {
+                'all': ('auditlog-styles.css',),
+              }
+
     list_display = ['created', 'resource_url', 'action', 'msg_short', 'user_url']
     search_fields = ['timestamp', 'object_repr', 'changes', 'actor__first_name', 'actor__last_name']
     list_filter = ['action', ResourceTypeFilter]
