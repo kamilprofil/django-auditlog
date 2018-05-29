@@ -5,6 +5,7 @@
 div.grp-readonly table {
     width:100%;
     border:1px dotted gray;
+    background-color:#FFF;
 }
 
 div.grp-readonly table td {
