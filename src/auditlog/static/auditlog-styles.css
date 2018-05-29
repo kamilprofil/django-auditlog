@@ -2,6 +2,7 @@
    Styles for auditlog. 
    Makes auditlog looks better with Django Grappelli.
 */
+
 div.grp-readonly table {
     width:100%;
     border:1px dotted gray;
