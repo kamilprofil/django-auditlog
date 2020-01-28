@@ -2,8 +2,8 @@ from distutils.core import setup
 
 setup(
     name='django-auditlog',
-    version='0.4.5',
-    packages=['auditlog', 'auditlog.migrations', 'auditlog.management', 'auditlog.management.commands', 'auditlog.static'],
+    version='0.4.7',
+    packages=['auditlog', 'auditlog.migrations', 'auditlog.management', 'auditlog.management.commands'],
     package_dir={'': 'src'},
     url='https://github.com/jjkester/django-auditlog',
     license='MIT',
@@ -14,5 +14,15 @@ setup(
         'python-dateutil==2.6.0'
     ],
     zip_safe=False,
-    include_package_data=True
+    include_package_data=True,
+    classifiers=[
+        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'License :: OSI Approved :: MIT License',
+    ],
 )
